@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NBitcoin" Version="5.0.58" />
+    <PackageReference Include="NBitcoin.Altcoins" Version="2.0.21" />
+    <PackageReference Include="NBitcoin.TestFramework" Version="2.0.12" />
+  </ItemGroup>
+
+</Project>
